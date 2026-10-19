@@ -1,0 +1,24 @@
+{
+  "model": "models\\logistic_regression_baseline.joblib",
+  "features": 78,
+  "test_records": 566149,
+  "threshold_050": {
+    "accuracy": 0.9116822603236957,
+    "roc_auc": 0.9761297043822934,
+    "false_positives": 44757,
+    "false_negatives": 5244,
+    "attack_precision": 0.7036784470544617,
+    "attack_recall": 0.9529808390642792,
+    "attack_f1": 0.8095715063735142
+  },
+  "threshold_060": {
+    "accuracy": 0.9195635777860599,
+    "roc_auc_reference": 0.9761297043822934,
+    "false_positives": 38483,
+    "false_negatives": 7056,
+    "attack_precision": 0.7308052827443409,
+    "attack_recall": 0.9367339436379776,
+    "attack_f1": 0.8210542861072362
+  },
+  "generalization_warning": "Random split; related flows may occur across train and test. This does not establish generalization to unseen attack families."
+}

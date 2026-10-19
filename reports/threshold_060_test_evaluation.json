@@ -1,0 +1,56 @@
+{
+  "evaluation": "held-out random test split",
+  "decision_threshold": 0.6,
+  "warning": "Random split; related flows may occur across train and test. This does not establish generalization to unseen attack families.",
+  "test_records": 566149,
+  "benign_records": 454620,
+  "attack_records": 111529,
+  "accuracy": 0.9195635777860599,
+  "roc_auc_reference": 0.9761297043822934,
+  "roc_auc_note": "Reference only: copied from the original held-out evaluation using the same model and test split. ROC-AUC was not recalculated in this threshold-specific run.",
+  "confusion_matrix_labels": [
+    "Benign",
+    "Attack"
+  ],
+  "confusion_matrix": [
+    [
+      416137,
+      38483
+    ],
+    [
+      7056,
+      104473
+    ]
+  ],
+  "classification_report": {
+    "Benign": {
+      "precision": 0.9833267563499396,
+      "recall": 0.9153512823896881,
+      "f1-score": 0.9481222082607571,
+      "support": 454620
+    },
+    "Attack": {
+      "precision": 0.7308052827443409,
+      "recall": 0.9367339436379776,
+      "f1-score": 0.8210542861072362,
+      "support": 111529
+    },
+    "macro avg": {
+      "precision": 0.8570660195471402,
+      "recall": 0.9260426130138328,
+      "f1-score": 0.8845882471839966,
+      "support": 566149
+    },
+    "weighted avg": {
+      "precision": 0.9335810755666849,
+      "recall": 0.9195635777860599,
+      "f1-score": 0.9230903557098208,
+      "support": 566149
+    }
+  },
+  "prediction_time_seconds": 2.9824443000043175,
+  "average_prediction_time_ms_per_record": 0.005267949426748643,
+  "model_file": "models\\logistic_regression_baseline.joblib",
+  "feature_count": 78,
+  "batch_size": 2000
+}

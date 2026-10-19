@@ -1,0 +1,55 @@
+{
+  "evaluation": "held-out random test split",
+  "warning": "Random split; related flows may occur across train and test. This does not establish generalization to unseen attack families.",
+  "test_records": 566149,
+  "benign_records": 454620,
+  "attack_records": 111529,
+  "accuracy": 0.9116822603236957,
+  "roc_auc": 0.9761297043822934,
+  "confusion_matrix_labels": [
+    "Benign",
+    "Attack"
+  ],
+  "confusion_matrix": [
+    [
+      409863,
+      44757
+    ],
+    [
+      5244,
+      106285
+    ]
+  ],
+  "classification_report": {
+    "Benign": {
+      "precision": 0.9873671125757937,
+      "recall": 0.9015507456777089,
+      "f1-score": 0.9425095460989483,
+      "support": 454620.0
+    },
+    "Attack": {
+      "precision": 0.7036784470544617,
+      "recall": 0.9529808390642792,
+      "f1-score": 0.8095715063735142,
+      "support": 111529.0
+    },
+    "accuracy": 0.9116822603236957,
+    "macro avg": {
+      "precision": 0.8455227798151277,
+      "recall": 0.927265792370994,
+      "f1-score": 0.8760405262362312,
+      "support": 566149.0
+    },
+    "weighted avg": {
+      "precision": 0.9314816245206553,
+      "recall": 0.9116822603236957,
+      "f1-score": 0.9163213047834325,
+      "support": 566149.0
+    }
+  },
+  "prediction_time_seconds": 2.6099384000299324,
+  "average_prediction_time_ms_per_record": 0.004609985004000594,
+  "model_file": "models\\logistic_regression_baseline.joblib",
+  "feature_count": 78,
+  "batch_size": 10000
+}

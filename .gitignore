@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files and archives
+data/*.csv
+data/*.zip
+data/*.pkl
+data/*.parquet
+MachineLearningCSV/
+MachineLearningCSV.zip
+
+# Local database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated model artifacts
+models/*.joblib
+models/*.pkl
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

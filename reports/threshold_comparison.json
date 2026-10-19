@@ -1,0 +1,75 @@
+{
+  "validation_records": 50000,
+  "validation_benign": 40274,
+  "validation_attack": 9726,
+  "prediction_time_seconds": 1.2541416000567551,
+  "threshold_results": [
+    {
+      "threshold": 0.3,
+      "accuracy": 0.89246,
+      "attack_precision": 0.6484604355840786,
+      "attack_recall": 0.9765576804441702,
+      "attack_f1": 0.7793870266278259,
+      "true_negatives": 35125,
+      "false_positives": 5149,
+      "false_negatives": 228,
+      "true_positives": 9498
+    },
+    {
+      "threshold": 0.4,
+      "accuracy": 0.90218,
+      "attack_precision": 0.6718316866870424,
+      "attack_recall": 0.9718280896565906,
+      "attack_f1": 0.7944526160958184,
+      "true_negatives": 35657,
+      "false_positives": 4617,
+      "false_negatives": 274,
+      "true_positives": 9452
+    },
+    {
+      "threshold": 0.5,
+      "accuracy": 0.91192,
+      "attack_precision": 0.7016214577966359,
+      "attack_recall": 0.9520871889779972,
+      "attack_f1": 0.8078869307276217,
+      "true_negatives": 36336,
+      "false_positives": 3938,
+      "false_negatives": 466,
+      "true_positives": 9260
+    },
+    {
+      "threshold": 0.6,
+      "accuracy": 0.91986,
+      "attack_precision": 0.729697164430878,
+      "attack_recall": 0.9339913633559531,
+      "attack_f1": 0.8193010146561444,
+      "true_negatives": 36909,
+      "false_positives": 3365,
+      "false_negatives": 642,
+      "true_positives": 9084
+    },
+    {
+      "threshold": 0.7,
+      "accuracy": 0.94334,
+      "attack_precision": 0.835034509575192,
+      "attack_recall": 0.8831996709849886,
+      "attack_f1": 0.8584420126917504,
+      "true_negatives": 38577,
+      "false_positives": 1697,
+      "false_negatives": 1136,
+      "true_positives": 8590
+    },
+    {
+      "threshold": 0.8,
+      "accuracy": 0.92902,
+      "attack_precision": 0.8415348888643149,
+      "attack_recall": 0.7824388237713346,
+      "attack_f1": 0.8109116095689701,
+      "true_negatives": 38841,
+      "false_positives": 1433,
+      "false_negatives": 2116,
+      "true_positives": 7610
+    }
+  ],
+  "note": "Thresholds are compared on a separate validation subset. The held-out test set was not used for threshold selection."
+}
